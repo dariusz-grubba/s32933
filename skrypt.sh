@@ -15,4 +15,36 @@ touch "Dokumenty/Produkty/AMD/plik.txt"
 touch "Dokumenty/Produkty/NVidia/plik.txt"
 touch "Zadania/plik.txt"
  
- 
+touch "Zadania/x.txt"
+
+echo "Producent VRam Cena" > "Zadania/x.txt" 
+echo "AMD 16GB 4599
+Nvidia 24GB 5999
+Nvidia 12GB 3250
+Nvidia 16GB 4399
+AMD 24GB 5999
+AMD 20GB 5699
+Nvidia 16GB 4799
+Nvidia 20GB 5699
+AMD 12GB 3250
+AMD 8GB 2150
+Nvidia 8GB 2150
+Nvidia 20GB 5750
+Nvidia 24GB 5999
+Nvidia 12GB 3450
+AMD 20GB 5750
+AMD 8GB 1999
+AMD 16GB 4399
+Nvidia 12GB 3550
+AMD 8GB 1999
+AMD 20GB 5850
+Nvidia 16GB 4450
+AMD 12GB 3399
+AMD 16GB 4799
+Nvidia 8GB 1799
+AMD 12GB 3550
+Nvidia 20GB 5599
+AMD 24GB 5999
+Nvidia 8GB 1899
+AMD 24GB 5999
+Nvidia 24GB 5999" >> "Zadania/x.txt"
