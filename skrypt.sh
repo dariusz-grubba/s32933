@@ -48,3 +48,11 @@ AMD 24GB 5999
 Nvidia 8GB 1899
 AMD 24GB 5999
 Nvidia 24GB 5999" >> "Zadania/x.txt"
+
+mv "./Zadania/x.txt" "./Dane/Karty graficzne.txt"
+
+egrep "^AMD\s.*$" "Dane/Karty graficzne.txt" > "Dokumenty/Produkty/NVidia/Karty_AMD.txt"
+egrep "^NVidia\s.*$" "Dane/Karty graficzne.txt" > "Dokumenty/Produkty/AMD/Karty_NVidia.txt"
+
+head - $1 "Dokumenty/Produkty/Nvidia/Karty_AMD.txt" >> "Dokumenty/Zestawienie.txt"
+head - $2 "Dokumenty/Produkty/AMD/Karty_NVidia.txt" >> "Dokumenty/Zestawienie.txt"
