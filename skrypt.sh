@@ -61,3 +61,7 @@ mv "Dokumenty/Produkty/NVidia/Karty_AMD.txt" "Dokumenty/Produkty/AMD/"
 mv "Dokumenty/Produkty/AMD/Karty_NVidia.txt" "Dokumenty/Produkty/NVidia"
 
 touch "Zadania/Zesputy.txt"
+
+touch "/.gitignore"
+
+echo "Zepsuty.txt" > "/.gitignore"
