@@ -54,5 +54,10 @@ mv "./Zadania/x.txt" "./Dane/Karty graficzne.txt"
 egrep "^AMD\s.*$" "Dane/Karty graficzne.txt" > "Dokumenty/Produkty/NVidia/Karty_AMD.txt"
 egrep "^NVidia\s.*$" "Dane/Karty graficzne.txt" > "Dokumenty/Produkty/AMD/Karty_NVidia.txt"
 
-head - $1 "Dokumenty/Produkty/Nvidia/Karty_AMD.txt" >> "Dokumenty/Zestawienie.txt"
-head - $2 "Dokumenty/Produkty/AMD/Karty_NVidia.txt" >> "Dokumenty/Zestawienie.txt"
+head - $2 "Dokumenty/Produkty/NVidia/Karty_AMD.txt" >> "Dokumenty/Zestawienie.txt"
+head - $3 "Dokumenty/Produkty/AMD/Karty_NVidia.txt" >> "Dokumenty/Zestawienie.txt"
+
+mv "Dokumenty/Produkty/NVidia/Karty_AMD.txt" "Dokumenty/Produkty/AMD/"
+mv "Dokumenty/Produkty/AMD/Karty_NVidia.txt" "Dokumenty/Produkty/NVidia"
+
+touch "Zadania/Zesputy.txt"
